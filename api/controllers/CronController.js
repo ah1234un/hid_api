@@ -1,6 +1,6 @@
 'use strict';
 
-const Controller = require('trails/controller');
+const Controller = require('trails/lib/Controller');
 const async = require('async');
 const _ = require('lodash');
 const https = require('https');

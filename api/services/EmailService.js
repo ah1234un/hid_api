@@ -1,6 +1,6 @@
 'use strict';
 
-const Service = require('trails/service');
+const Service = require('trails/lib/Service');
 const Nodemailer = require('nodemailer');
 const Email = require('email-templates');
 const TransporterUrl = 'smtp://' + process.env.SMTP_USER + ':' + process.env.SMTP_PASS + '@' + process.env.SMTP_HOST + ':' + process.env.SMTP_PORT;

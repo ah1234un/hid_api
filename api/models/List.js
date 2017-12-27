@@ -1,6 +1,6 @@
 'use strict';
 
-const Model = require('trails/model');
+const Model = require('trails/lib/Model');
 const Schema = require('mongoose').Schema;
 const languages = ['en', 'fr', 'es'];
 const isHTML = require('is-html');

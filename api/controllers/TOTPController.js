@@ -3,7 +3,7 @@
 const authenticator = require('authenticator');
 const Boom = require('boom');
 const QRCode = require('qrcode');
-const Controller = require('trails/controller');
+const Controller = require('trails/lib/Controller');
 const BCrypt = require('bcryptjs');
 
 /**

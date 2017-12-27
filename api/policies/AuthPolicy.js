@@ -1,6 +1,6 @@
 'use strict';
 
-const Policy = require('trails/policy');
+const Policy = require('trails/lib/Policy');
 const Boom = require('boom');
 const acceptLanguage = require('accept-language');
 const authenticator = require('authenticator');

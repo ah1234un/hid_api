@@ -1,6 +1,6 @@
 'use strict';
 
-const Model = require('trails/model');
+const Model = require('trails/lib/Model');
 const crypto = require('crypto');
 const Schema = require('mongoose').Schema;
 
